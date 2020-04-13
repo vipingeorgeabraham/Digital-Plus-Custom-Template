@@ -1,3 +1,5 @@
 versions:
+  - sha: 06fbe294aa726ab2addaf4697c0176b707cf4f51
+    changeNotes: Changed template permissions and injected script
   - sha: 52f96cbe432a4806c9212e2ce4fe36c361daeb40
     changeNotes: Initial release.
