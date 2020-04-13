@@ -18,7 +18,9 @@ ___INFO___
     "id": "Flytxt",
     "displayName": "Flytxt"
   },
-  "categories":  ["Analytics"],
+  "categories": [
+    "Analytics"
+  ],
   "description": "Digital Plus Tag Template",
   "containerContexts": [
     "WEB"
@@ -92,7 +94,7 @@ const callInWindow=require('callInWindow');
 const injectScript= require('injectScript');
 //const endpointUri="https://de198486.ngrok.io/tagtest";
 const endpointUri="https://9bbbzm36uj.execute-api.us-east-2.amazonaws.com/test/digitalplustag";
-const scriptUri='https://3ead2d09.ngrok.io/vipin/sendPostReq.js';
+const scriptUri='https://dl.dropboxusercontent.com/s/kum9hk2f5cpoixd/sendPostReq.js?dl=1';
 
 function onSuccess() {
   callInWindow("sendDigitalPlusData",data,endpointUri,data.gtmOnSuccess,data.gtmOnFailure);
@@ -146,7 +148,7 @@ ___WEB_PERMISSIONS___
             "listItem": [
               {
                 "type": 1,
-                "string": "https://3ead2d09.ngrok.io/vipin/sendPostReq.js"
+                "string": "https://dl.dropboxusercontent.com/s/kum9hk2f5cpoixd/sendPostReq.js?dl\u003d1"
               }
             ]
           }
@@ -230,5 +232,4 @@ scenarios: []
 ___NOTES___
 
 Created on 13/04/2020, 18:30:43
-
 
